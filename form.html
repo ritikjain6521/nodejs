@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Html form</title>
+</head>
+<body>
+
+    <form method="post">
+    <form action="index.php">
+        <link rel="stylesheet" href="style.css">
+        <div class="contenar">   
+        <div>
+            <label for="name">Firstname</label>
+             <input type="text" name="firstName" placeholder="enter the firstName" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="lastName">LastName</label>
+            <input type="text" name="lastName"placeholder="enter last name" id="lastName">
+        </div>
+        <br>
+        <div>
+            <label for="gender">gender</label>
+            <input type="radio" name="gender" value="male">male
+            <input type="radio" name="gender" value="female"> Female
+        </div>
+        <br>
+        <div>
+            <label for="Rollnumber">Rollnumber</label>
+           <input type="number" name="Rollnumber" id="Rollnumber">
+        </div>
+        <br>
+        <div>
+            <label for="class">class</label>
+            <input type="text" name="class" id="class">
+        </div>
+        <br>
+        <div class="input-name"> 
+           Select city  <select class="Block"> 
+             <option>Select block</option>
+               <option>Betul</option>
+               <option>Bhainsdehi</option>
+               <option>Bhimpur</option>
+               <option>Aathner</option>
+            </select>
+            <div class="arrow"></div>
+             </div>
+             <br>
+        <div>   
+            subject: <br>
+                     <input type="checkbox" name="subject" value="maths" id="maths" checked >Maths
+                     <br>
+                    <input type="checkbox" name="subject" value="english" id="english">English
+                    <br>
+                    <input type="checkbox" name="subject"  value="physics" id="physics"> physics
+                    <br>
+        </div>
+        <br>
+        <div class="button">
+
+            <input type="submit" name="submit" value="submit" id="submit"> 
+            <input type="reset" name="reset"   value="reset" id="reset"> 
+        </div>
+        <br>
+
+       
+       
+
+
+        </div>
+    </form>
+
+
+
+
+
+</body>
+</html>
